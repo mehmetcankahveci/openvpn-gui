@@ -53,4 +53,4 @@ EOF
 
 echo -e "${bold}Connected to San Francisco, CA | United States of America. Don't do naughty stuff, Peter Coles is watching\n"
 
-openvpn --config uaa-vpn.ovpn
+openvpn --config vpn.ovpn
