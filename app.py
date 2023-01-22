@@ -19,7 +19,7 @@ def restart_program():
 
 def connected():  
     messagebox.showinfo('Success!', 'You connected to our servers at San Francisco, CA! Minimize This Window to keep using the VPN. Your Connection will end after you close this window.')
-    os.system('./uaavpn-connect.sh')
+    os.system('./vpn-connect.sh')
 def disconnected(): 
     os.system('killall openvpn') 
     messagebox.showinfo('Success!', "You're now using your local network")
